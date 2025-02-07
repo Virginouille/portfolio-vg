@@ -4,6 +4,8 @@ body {
     height: 1024px;
 }
 
+/* Barre nav */
+
 ul {
     position: absolute;
     list-style-type: none;
@@ -16,6 +18,14 @@ ul {
     font-size: larger;
     text-transform: uppercase;
 }
+
+li:hover {
+
+    color: #cfcfcf;
+    text-decoration: underline;
+}
+
+/* H1*/
 
 h1 {
     text-transform: uppercase;
@@ -31,6 +41,8 @@ h1 {
     font-size: 1000%;
 
 }
+
+/* Img fond et glassmorphisme*/
 
 .img-fond {
     background-size: cover;
