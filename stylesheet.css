@@ -170,11 +170,6 @@ h3 {
 }
 
 
-.img-cookiz:hover,
-.img-tic-tac:hover {
-    filter: hue-rotate(-0.25turn);
-}
-
 .lien-tic-tac,
 .lien-cookiz {
     position: relative;
