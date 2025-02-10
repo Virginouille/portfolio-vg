@@ -144,6 +144,22 @@ h2 {
     border-width: 7px;
     border-color: rgba(255, 255, 255, 0.1);
     border-style: dotted;
+    animation: pulse-border 4s ease-in-out infinite;
+}
+
+/* animation pulse sur la bordure*/
+@keyframes pulse-border {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0);
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0);
+    }
 }
 
 h3 {
