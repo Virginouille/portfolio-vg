@@ -1,3 +1,6 @@
+/*Responsive*/
+
+
 @media screen and (max-width: 1024px) {
     ul {
         flex-direction: column;
@@ -23,6 +26,7 @@
     }
 }
 
+/* STRUCTURE DU BODY*/
 body {
     background-color: #05050c;
     min-height: 100vh;
@@ -211,4 +215,10 @@ h3 {
     top: 200px;
     border: solid 6px rgba(255, 255, 255, 1);
     border-radius: 30px;
+    transition: transform 0.3s ease, filter 0.5s ease;
+}
+
+.img-linkedin:hover {
+    transform: scale(1.020);
+    filter: brightness(0.95);
 }
