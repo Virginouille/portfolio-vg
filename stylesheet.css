@@ -166,6 +166,13 @@ h3 {
     border-radius: 30px;
     border: solid 6px rgba(255, 255, 255, 0.2);
     box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.1);
+    transition: filter 0.4s ease-in-out;
+}
+
+
+.img-cookiz:hover,
+.img-tic-tac:hover {
+    filter: hue-rotate(-0.25turn);
 }
 
 .lien-tic-tac,
